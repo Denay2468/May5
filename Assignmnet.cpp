@@ -54,4 +54,18 @@ class Kite
     float side1;
     float side2;
 
+    public:
+    void input()
+    {
+        cout << "=== Kite Input ===" << endl;
+        cout << "Enter diagonal 1   : ";
+        cin >> diagonal1;
+        cout << "Enter diagonal 2   : ";
+        cin >> diagonal2;
+        cout << "Enter side 1       : ";
+        cin >> side1;
+        cout << "Enter side 2       : ";
+        cin >> side2;
+    }
+
 };
