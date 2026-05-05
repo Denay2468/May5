@@ -73,4 +73,15 @@ class Kite
         return (diagonal1 * diagonal2) / 2;
     }
 
+        void output()
+    {
+        cout << "\n=== Kite Output ===" << endl;
+        cout << "Diagonal 1         : " << diagonal1 << endl;
+        cout << "Diagonal 2         : " << diagonal2 << endl;
+        cout << "Side 1             : " << side1 << endl;
+        cout << "Side 2             : " << side2 << endl;
+        cout << "Area               : " << getArea() << endl;
+        cout << "Perimeter          : " << getKitePerimeter(*this) << endl;
+    }
+
 };
