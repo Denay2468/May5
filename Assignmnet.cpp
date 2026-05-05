@@ -22,4 +22,9 @@ class Rhombus
         cout << "Enter diagonal 2   : ";
         cin >> diagonal2;
     }
+
+    float getArea()
+    {
+        return (diagonal1 * diagonal2) / 2;
+    }
 };
