@@ -68,4 +68,9 @@ class Kite
         cin >> side2;
     }
 
+     float getArea()
+    {
+        return (diagonal1 * diagonal2) / 2;
+    }
+
 };
