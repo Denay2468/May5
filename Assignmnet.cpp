@@ -27,4 +27,9 @@ class Rhombus
     {
         return (diagonal1 * diagonal2) / 2;
     }
+
+     float getPerimeter()
+    {
+        return 4 * side;
+    }
 };
