@@ -22,3 +22,11 @@ void person::showStudentScore(student &x)
 {
     cout << x.score;
 }
+
+int main()
+{
+    person budi;
+    student pbudi;
+    budi.showStudentScore(pbudi);
+    return 0;
+}
