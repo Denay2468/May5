@@ -35,3 +35,13 @@ void student::setId(int pId)
 {
     id = pId;
 }
+
+int main()
+{
+    person joko;
+    joko.setName("Joko Susilo");
+    student joko_student;
+    joko_student.setId(1);
+    joko_student.displayAll(joko);
+    return 0;
+}
