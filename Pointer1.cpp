@@ -9,15 +9,15 @@ class collegeStudent{
 };
 
 int main (){
-    collegeStudent mhs{1}; // Object mhs
-    mhs.showStudentId(); //Member Access Operator
+    collegeStudent mhs{1}; 
+    mhs.showStudentId(); 
 
-    collegeStudent &refMhs = mhs; //Pointer Reference refMhs
-    refMhs.studentId = 2; //Member Access Operator
+    collegeStudent &refMhs = mhs; 
+    refMhs.studentId = 2; 
     mhs.showStudentId();
 
-    collegeStudent *pMhs = &mhs; //pointer Dereference pMhs
-    pMhs->studentId = 3; //Arrow Operator
+    collegeStudent *pMhs = &mhs; 
+    pMhs->studentId = 3; 
     pMhs->showStudentId();
     return 0;
 }
