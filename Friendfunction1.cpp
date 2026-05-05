@@ -14,3 +14,10 @@ void setName(collegeStudent &a, string b)
     a.name = b;
     cout << a.name;
 }
+
+int main()
+{
+    collegeStudent joko;
+    setName(joko, "Kairi Kumar");
+    return 0;
+}
