@@ -13,7 +13,7 @@ public:
 
 int main()
 {
-    collegeStudent *mhs = new collegeStudent{1}; // pointer Object mhs
+    collegeStudent *mhs = new collegeStudent{1}; 
     mhs->studentId = 2;
     mhs->showStudentId();
     delete mhs;
