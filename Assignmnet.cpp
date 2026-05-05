@@ -42,4 +42,6 @@ class Rhombus
         cout << "Area               : " << getArea() << endl;
         cout << "Perimeter          : " << getPerimeter() << endl;
     }
+
+     friend float getKitePerimeter(Kite &k);
 };
