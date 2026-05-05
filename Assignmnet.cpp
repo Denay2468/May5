@@ -95,4 +95,12 @@ float getKitePerimeter(Kite &k)
 
 int main()
 {
+    Rhombus rhombus;
+    Kite kite;
+
+    rhombus.input();
+    kite.input();
+
+    rhombus.output();
+    kite.output();
 }
