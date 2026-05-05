@@ -84,4 +84,6 @@ class Kite
         cout << "Perimeter          : " << getKitePerimeter(*this) << endl;
     }
 
+    friend float getKitePerimeter(Kite &k);
+
 };
