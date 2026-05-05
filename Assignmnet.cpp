@@ -32,4 +32,14 @@ class Rhombus
     {
         return 4 * side;
     }
+
+      void output()
+    {
+        cout << "\n=== Rhombus Output ===" << endl;
+        cout << "Side length        : " << side << endl;
+        cout << "Diagonal 1         : " << diagonal1 << endl;
+        cout << "Diagonal 2         : " << diagonal2 << endl;
+        cout << "Area               : " << getArea() << endl;
+        cout << "Perimeter          : " << getPerimeter() << endl;
+    }
 };
