@@ -17,3 +17,8 @@ public:
     student() { score = 100; }
     friend void person::showStudentScore(student &x);
 };
+
+void person::showStudentScore(student &x)
+{
+    cout << x.score;
+}
