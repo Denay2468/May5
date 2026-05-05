@@ -103,4 +103,5 @@ int main()
 
     rhombus.output();
     kite.output();
+    return 0;
 }
