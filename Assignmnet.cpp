@@ -45,3 +45,8 @@ class Rhombus
 
      friend float getKitePerimeter(Kite &k);
 };
+
+class Kite
+{
+    
+};
