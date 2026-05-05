@@ -48,5 +48,10 @@ class Rhombus
 
 class Kite
 {
-    
+    private:
+    float diagonal1;
+    float diagonal2;
+    float side1;
+    float side2;
+
 };
