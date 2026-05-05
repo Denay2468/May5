@@ -92,3 +92,7 @@ float getKitePerimeter(Kite &k)
 {
     return 2 * (k.side1 + k.side2);
 }
+
+int main()
+{
+}
