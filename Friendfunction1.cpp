@@ -8,3 +8,9 @@ private:
 public:
     friend void setName(collegeStudent &a, string);
 };
+
+void setName(collegeStudent &a, string b)
+{
+    a.name = b;
+    cout << a.name;
+}
